@@ -1,0 +1,27 @@
+					GIT README
+
+Helping Teammates to understand git commands:
+
+After you finish your staged coding work, you need to do the following:
+
+1. git add .
+For add all the changes into the staged status.
+
+2. git commit -m ¡°Message you want to say¡±
+Store in local repository with a message
+
+3. git pull origin master
+Merge your code to the master branch, which means get remote code to local
+During this process, you may encounter merge conflicts on your local, delete what you do not want remain, decide the methods your want to remain.
+
+4. git push origin master
+Push your code to the master branch in remote repository
+
+
+For configuration to identify your identity:
+
+1. git config --global user.name "YOUR NAME"
+
+2. git config --global user.email YOUR_EMAIL_FOR_GITHUB
+
+Then next time for you do push, the project will show your contribution based on your github account, which makes us can track who changes certain files.
